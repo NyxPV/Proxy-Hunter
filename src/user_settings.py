@@ -6,7 +6,6 @@ SOURCE_URLS = [
     "https://t.me/s/PrivateVPNs",
     "https://t.me/s/DirectVPN",
     "https://t.me/s/persianvpnhub",
-    "https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt",
     "https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt",
     "https://raw.githubusercontent.com/zieng2/wl/refs/heads/main/vless_universal.txt",
     "https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html",
