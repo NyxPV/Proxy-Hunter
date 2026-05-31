@@ -6,7 +6,7 @@ An advanced, automated proxy configuration management system that fetches, valid
 
 ## 📊 Source Performance Monitoring
 
-Real-time performance statistics of all configured sources (Telegram channels and URLs). This chart is automatically updated every 12 hours.
+Real-time performance statistics of all configured sources (Telegram channels and URLs). This chart is automatically updated every 3 hours.
 
 ### Quick Overview
 
@@ -145,11 +145,29 @@ The system generates multiple output files for different use cases:
 - `configs/location_cache.json` - Cached geolocation data
 - `configs/channel_stats.json` - Source performance metrics
 
+## 🔗 Direct Download Links
+
+
+Click on your preferred proxy type to get the latest list. These links always point to the most recently updated proxy files.
+
+<!-- BEGIN PROXY LIST -->
+
+| FileName | Download |
+|----------|----------|
+| proxy_configs.txt | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/proxy_configs.txt |
+| proxy_configs_tested.txt | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/proxy_configs_tested.txt |
+| singbox_configs_all.json | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/proxy_configs_tested.txt |
+| singbox_configs_tested.json | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/singbox_configs_tested.json |
+| singbox_configs_secure.json | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/singbox_configs_secure.json|
+| xray_loadbalanced_config.json | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/xray_loadbalanced_config.json|
+| xray_secure_loadbalanced_config.json | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/xray_secure_loadbalanced_config.json |
+<!-- END PROXY LIST -->
+
 ## 🔄 Automation
 
 The project uses GitHub Actions for automatic updates:
 
-- Runs twice daily (08:00 and 20:00 UTC)
+- Runs every three Hours.
 - Can be triggered manually via workflow_dispatch
 - Automatically commits and pushes updated configurations
 - Generates performance reports and charts
