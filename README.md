@@ -147,20 +147,19 @@ The system generates multiple output files for different use cases:
 
 ## 🔗 Direct Download Links
 
-
 Click on your preferred proxy type to get the latest list. These links always point to the most recently updated proxy files.
 
 <!-- BEGIN PROXY LIST -->
 
 | FileName | Download |
 |----------|----------|
-| proxy_configs.txt | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/proxy_configs.txt |
-| proxy_configs_tested.txt | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/proxy_configs_tested.txt |
-| singbox_configs_all.json | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/proxy_configs_tested.txt |
-| singbox_configs_tested.json | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/singbox_configs_tested.json |
-| singbox_configs_secure.json | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/singbox_configs_secure.json|
-| xray_loadbalanced_config.json | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/xray_loadbalanced_config.json|
-| xray_secure_loadbalanced_config.json | https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/xray_secure_loadbalanced_config.json |
+| proxy_configs.txt | <https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/proxy_configs.txt> |
+| proxy_configs_tested.txt | <https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/proxy_configs_tested.txt> |
+| singbox_configs_all.json | <https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/proxy_configs_tested.txt> |
+| singbox_configs_tested.json | <https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/singbox_configs_tested.json> |
+| singbox_configs_secure.json | <https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/singbox_configs_secure.json>|
+| xray_loadbalanced_config.json | <https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/xray_loadbalanced_config.json>|
+| xray_secure_loadbalanced_config.json | <https://raw.githubusercontent.com/YawStar/Proxy-Hunter/refs/heads/main/configs/xray_secure_loadbalanced_config.json> |
 <!-- END PROXY LIST -->
 
 ## 🔄 Automation
@@ -283,7 +282,9 @@ Developed with ❤️ by **YawHackka**
 
 - 🐙 GitHub: [@yawstar](https://github.com/YawStar)
 - ✈️ Telegram: [@yawhackka](https://t.me/yawhackka)
-- 📦 Repository: [YawStar Proxy Hunter](https://github.com/YawStar/Proxy-Hunter)
+- 🥷 Repository: [YawStar Proxy Hunter](https://github.com/YawStar/Proxy-Hunter)
+- 📦 VPN Client: [YawStar Dance-Box](https://yawstardancebox.github.io/)
+- 💰 Support the author: [Donate](https://yawstardancebox.github.io/donate/)
 
 ## 🙏 Acknowledgments
 
