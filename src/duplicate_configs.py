@@ -745,7 +745,7 @@ def main():
     checker.print_protocol_statistics()
     checker.print_unparsable_list()
     checker.save_report("duplicate_report.txt")
-    checker.save_deduplicated_configs("configs/proxy_configs_deduplicated.txt")
+    checker.save_deduplicated_configs("configs/proxy_configs_deduplicate.txt")
     
     print("\n" + "=" * 70)
     print("✅ Analysis complete!")
