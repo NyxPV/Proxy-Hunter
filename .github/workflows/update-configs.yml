@@ -17,7 +17,7 @@ permissions:
 jobs:
   update-configs:
     runs-on: ubuntu-latest
-    timeout-minutes: 120 # 120 မိနစ် ကြာအောင် Virtual Machine ကို Run ခိုင်း
+    timeout-minutes: 120 # 120 မိနစ် (2 နာရီ) ကြာအောင် Virtual Machine ကို Run ခိုင်း
 
     steps:
       - name: Checkout repository
@@ -203,10 +203,6 @@ jobs:
         run: python src/rename_configs.py configs/location_cache.json configs/proxy_configs.txt configs/proxy_configs.txt
         continue-on-error: true
 
-      - name: Deduplicate configs
-        run: python src/duplicate_configs.py
-        continue-on-error: true
-
       - name: Test configs with Xray
         run: python src/xray_config_tester.py configs/proxy_configs.txt configs/proxy_configs_tested.txt
         continue-on-error: true
@@ -235,6 +231,10 @@ jobs:
 
       - name: Convert tested configs to Xray format
         run: python src/xray_balancer.py
+        continue-on-error: true
+
+      - name: Deduplicate configs
+        run: python src/deduplicate_configs.py configs/proxy_configs.txt configs/proxy_configs_deduplicated.txt
         continue-on-error: true
 
       - name: Generate charts and reports
